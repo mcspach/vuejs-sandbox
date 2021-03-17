@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vue Sandbox</title>
-    <link rel="stylesheet" href="style.scss">
+    <link rel="stylesheet" href="style.scss" />
     <script src="https://unpkg.com/vue@next"></script>
-</head>
-<body>
-    <div id="app" style="border: 2px solid black; margin: 20%; padding: 10%; width: 40%">
-        <h1>{{ product }}</h1>
-        <p>{{ description }}</p>
+  </head>
+  <body>
+    <div
+      id="app"
+      style="border: 2px solid black; margin: 20%; padding: 10%; width: 40%"
+    >
+      <h1>{{ product }}</h1>
+      <p>{{ description }}</p>
     </div>
 
-    
     <!-- Importing App -->
     <script src="./main.js"></script>
 
     <!-- Mounted App -->
     <script>
-        const mountedApp = app.mount('#app');
+      const mountedApp = app.mount("#app");
     </script>
-</body>
+  </body>
 </html>
